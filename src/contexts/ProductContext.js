@@ -1,5 +1,5 @@
-import { useState, createContext } from 'react';
-import {data} from '../data';
+import { createContext } from 'react';
 
+const ProductsContext = createContext()
 
-export const ProductsContext = createContext(data)
+export default ProductsContext
